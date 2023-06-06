@@ -40,10 +40,12 @@
 
 /api/users/:id/friends- Body not required
 
-/api/users/:id/friends/:friendId- Body not required
+/api/users/:id/friends/:friendId- {
+status:"accept/reject"
+}
 
 /api/posts- {
-    "text": "New post 1",
-  "image": "image URL",
-  "createdAt": "2023/06/06"
+"text": "New post 1",
+"image": "image URL",
+"createdAt": "2023/06/06"
 }
